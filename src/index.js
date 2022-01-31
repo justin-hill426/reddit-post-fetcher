@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import axios from 'axios'
-
+//pull reddit posts at component mounting time
 class Reddit extends React.Component {
   state = {
     posts: [],
